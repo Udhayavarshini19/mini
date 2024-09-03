@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>E-commerce PhotoSchool</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/logo.jpeg" alt="" / width="125px">
+                </a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="carrt.html">
+
+                <img src="./assets/cartlogo.jpeg" alt="" width="50px" height="50px" />
+            </a>
+            <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <div class="searchbox">
+            <input type="text" placeholder="search">
+            <i class="fa fa-search"></i></div>
+            <select>
+                <option>Default Sorting</option>
+                <option>Price Low to High</option>
+                <option>Price High to Low</option>
+                <option>By Popularity</option>
+                <option>By Rating</option>
+                <option>By Sale</option>
+            </select>
+            <i class="fa fa-refresh"></i>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="product-details.html">
+
+                    <img src="./assets/jigsaw.jpeg" alt="" />
+                </a>
+                <a href="product-details.html">
+
+                    <h4> SANFORD MITRESAW FLEXIBLE</h4>
+                </a>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs 540</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/hammer.jpeg" alt="" />
+                <h4>HAMMER 5INCHES</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs 990</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/multimter.jpeg" alt="" />
+                <h4>SAMYANG 35 mm f/1,8 AF FE pro Sony E</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs 290</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/try square.jpeg" alt="" />
+                <h4>WOODEN TRYSQUARE SCALE</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs 12L</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="./assets/e junction box.jpeg" alt="" />
+                <h4>ELECTRICAL JUNCTION BOX</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs 990</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/clampmeterdcacvoltage.jpeg" alt="" />
+                <h4>FORL CLAMP METER AC DC VOLTAGE DETECTION</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs 990</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/outsidetoolkitthroughwall flange&fittings.jpeg" alt="" />
+                <h4>TOOLKIT OF PIPE THROUGH WALL</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>OUTSIDE PIPING TOOL KIT WITH ALL FITTINGS FLANGE</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/double wall socket.jpeg" alt="" />
+                <h4>FLASHER DOUBLE WALL ELECTRICAL SOCKET</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs 540</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="./assets/knife edge hammer.jpeg" alt="" />
+                <h4>TOKINA 4INCH KNIFE EDGED HAMMER</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs. 770</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/stainlesssteeltube.jpeg" alt="" />
+                <h4>CANAVA STAINLESS STEEL TUBE</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.3270</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/junc box pvc.jpeg" alt="" />
+                <h4>GITZO JUNCTION BOX PVC MADE MULTIPLE PORTS </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs. 390,</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/spanner wrench.jpeg" alt="" />
+                <h4>SONALA SPANNER WRENCH 50mm</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs. 390</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="./assets/stainless bolts and nuts.jpeg" alt="" />
+                <h4>NANLITE BOLT AND NUTS STAINLESS</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs. 290</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/polyethylene pipe.jpeg" alt="" />
+                <h4>LUME POLYETHYLENE PIPE 5METRES</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.890,</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/household toolkit.jpeg" alt="" />
+                <h4>ZHIYUN ENTIRE HOUSEHOLD TOOLKIT </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.790,</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/fan regulator plastiic.jpeg" alt="" />
+                <h4>DSC-RX0 FAN REGULATOR (PLASTIC)</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs. 180</p>
+            </div>
+        </div>
+
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Andriod and ios mobile phone.</p>
+                    <div class="app-logo">
+                        
+                        <img src="./assets/app_googlelogo.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <a href="index.html"> <img src="./assets/logo.jpeg" alt=""></a>
+                    <p>Our purpose is to give the best quality product to the customer and bring them back and make them happy.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; 2021</p>
+        </div>
+    </div>
+
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>

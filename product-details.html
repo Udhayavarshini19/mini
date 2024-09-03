@@ -1,0 +1,207 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>E-commerce PhotoSchool</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./assets/logo.jpeg" alt="" / width="125px">
+                </a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="carrt.html">
+
+                <img src="./assets/cartlogo.jpeg" alt="" width="50px" height="50px" />
+            </a>
+            <img src="images/menu.png" alt="" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="./assets/jigsaw.jpeg" alt="" width="100%" id="ProductImg">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="./assets/jigsaw1.jpeg" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./assets/jigsaw2.jpeg" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./assets/jigsaw3.jpeg" alt="" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="./assets/jigsaw4.jpeg" alt="" width="100%" class="small-img">
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="col-2">
+                <p>Home / jigsaw</p>
+                <h1>modern jigsaw by Nike</h1>
+                <h4>Rs.3695</h4>
+                
+                <input type="number" value="1">
+                <a href="" class="btn">Add to Cart</a>
+                <h3>Product Details <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>jigsaw modernised equipement manufactured by nike is a great warranted equipement used in carpentary works</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Related Products</h2>
+            <p>View More</p>
+        </div>
+    </div>
+
+    <div class="small-container">
+
+
+        <div class="row">
+            <div class="col-4">
+                <img src="./assets/hand drill.jpeg" alt="" />
+                <h4>driller by Nike</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.395</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/mitresaw.jpeg" alt="" />
+                <h4>Polo Ralph Lauren mitre saw</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>Rs.190</p>
+            </div>
+            <div class="col-4">
+                <img src="./assets/corddriller.jpeg" alt="" />
+                <h4>Allen cord driller</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs.2369</p>
+            </div>
+            
+        </div>
+    </div>
+    </div>
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Andriod and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="./assets/app_googlelogo.jpeg" alt="">
+                        
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <a href="index.html"> <img src="./assets/logo.jpeg" alt=""></a>
+                    <p>Our purpose is to give the best quality product to the customer and bring them back and make them happy.
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright &copy; 2024</p>
+        </div>
+    </div>
+
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+    <script>
+        var ProductImg = document.getElementById("ProductImg");
+        var SmallImg = document.getElementsByClassName("small-img");
+
+        SmallImg[0].onclick = function() {
+            ProductImg.src = SmallImg[0].src;
+        }
+        SmallImg[1].onclick = function() {
+            ProductImg.src = SmallImg[1].src;
+        }
+        SmallImg[2].onclick = function() {
+            ProductImg.src = SmallImg[2].src;
+        }
+        SmallImg[3].onclick = function() {
+            ProductImg.src = SmallImg[3].src;
+        }
+    </script>
+
+
+</body>
+
+</html>
